@@ -7,7 +7,7 @@
   
 }
 body {
-  background-image: url("NewColorOfSkyPng.png");
+  background-image: url("./images/NewColorOfSkyPng.png");
   background-position: 0 var(--step, 0%); 
   background-size: cover;
   color: purple;

@@ -1,4 +1,0 @@
-A very simple static personal website in html, css and javascript
-In english and broken german, whith french being added soon. I hope to add modular language packs eventually.
-the main intresting thing is im working on a background which will scroll up changing color. I'm using the tumblr post "do you love the color of the sky"'s image for mine.
-I oneday hope to get the theme to change with the region of the background
