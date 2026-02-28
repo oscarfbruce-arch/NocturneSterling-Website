@@ -2,14 +2,14 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." Verdana*/
 
-
+:root{
+  --step: 50%;
+  
+}
 body {
-  
-  background-image: url("NewColorOfSkyPng.png"); /*no-repeat;*/
-  
+  background-image: url("NewColorOfSkyPng.png");
+  background-position: 0 var(--step, 0%); 
   background-size: cover;
-/*background-size: 100%;
-/*background-image: url("Color.jpeg"); */
   color: purple;
   font-family: Courier;
   
