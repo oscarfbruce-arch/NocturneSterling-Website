@@ -1,14 +1,15 @@
-sessionStorage.setItem("step",8000);
+sessionStorage.setItem("step",0);
 let step = Number(sessionStorage.getItem("step")) || 0;
-let speed = 5;
-let delay = 100;
+let speed = 50;
 let backHightPx = 20460;
 
-animate() {
+const animate = () => {
   step = (step + speed) % (backHightPx);
-  sessionStorage.setItem("step",step);
   document.documentElement.style.setProperty('--step', step + 'px');
   requestAnimationFrame(animate);
 }
 
+window.addEventListener(BeforeUnloadEvent, () => {
+sessionStorage.setItem("step",step)
+})
 requestAnimationFrame(animate);
