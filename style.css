@@ -1,15 +1,12 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." Verdana*/
+/*  background-image: url("./images/NewColorOfSkyPng.png");*/
 
-:root{
-  --step: 40%;
-  
-}
 body {
   
-  background-image: url("./images/NewColorOfSkyPng.png");
-  background-position: 0 var(--step, 0%); 
+  background: linear-gradient(to right, red, blue);
+  background-position: 0 50; 
   background-size: cover;
   color: purple;
   font-family: Courier;
